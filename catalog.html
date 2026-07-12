@@ -3,11 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>CRIS VŨ SPORT</title>
-  <meta name="description" content="Album áo bóng đá replica CRIS VŨ SPORT">
+  <title>Danh mục | CRIS VŨ SPORT</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body data-page="home">
+<body data-page="catalog">
 
 <div class="promo" id="promo">
   ⚽ ÁO BÓNG ĐÁ REPLICA · ORDER DỰ KIẾN 10–15 NGÀY
@@ -58,45 +57,35 @@
   <div id="mobileMenuContent"></div>
 </aside>
 
-<main>
-  <div class="container">
-    <section class="trust-row">
-      <div class="trust-card"><div class="trust-icon">⭐</div>MẪU ÁO ĐƯỢC CẬP NHẬT THƯỜNG XUYÊN</div>
-      <div class="trust-card"><div class="trust-icon">📸</div>CÓ ẢNH THẬT SẢN PHẨM TỪ XƯỞNG</div>
-      <div class="trust-card"><div class="trust-icon">🧵</div>IN TÊN, SỐ VÀ PATCH THEO YÊU CẦU</div>
-    </section>
+<main class="container">
+  <div class="breadcrumb">Trang chủ / Danh mục</div>
+  <div class="catalog-head"><h1 id="catalogTitle">SẢN PHẨM</h1></div>
 
-    <section class="hero">
-      <div class="hero-collage">
-        <img src="https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=800&q=85" alt="">
-        <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=800&q=85" alt="">
-        <img src="https://images.unsplash.com/photo-1575361204480-aadea25e6e68?auto=format&fit=crop&w=800&q=85" alt="">
-      </div>
-      <div class="hero-copy">
-        <h1>CRIS VŨ SPORT</h1>
-        <div class="hero-note">
-          ÁO BÓNG ĐÁ REPLICA · ORDER 10–15 NGÀY<br>
-          CÓ HỖ TRỢ IN TÊN, SỐ VÀ PATCH<br>
-          XÁC NHẬN THÔNG TIN TRƯỚC KHI ĐẶT HÀNG
-        </div>
-        <a class="hero-btn" href="catalog.html">XEM ALBUM</a>
-      </div>
-    </section>
+  <div class="catalog-layout">
+    <aside class="sidebar">
+      <details open>
+        <summary>GIÁ</summary>
+        <label><input type="checkbox"> Dưới 400.000đ</label>
+        <label><input type="checkbox"> 400.000–550.000đ</label>
+      </details>
+      <details>
+        <summary>PHIÊN BẢN</summary>
+        <label><input type="checkbox"> Fan</label>
+        <label><input type="checkbox"> Player</label>
+        <label><input type="checkbox"> Retro</label>
+      </details>
+    </aside>
 
-    <section class="section">
-      <div class="section-title">
-        <h2>World Cup 2026</h2>
-        <p>Chọn nhanh đội tuyển theo bảng đấu.</p>
+    <section>
+      <div class="catalog-sort">
+        <span id="catalogCount">0 sản phẩm</span>
+        <select>
+          <option>Mới nhất</option>
+          <option>Giá thấp đến cao</option>
+          <option>Giá cao đến thấp</option>
+        </select>
       </div>
-      <div class="group-grid" id="groupGrid"></div>
-    </section>
-
-    <section class="section">
-      <div class="section-title">
-        <h2>Sản phẩm nổi bật</h2>
-        <p>4 cột trên máy tính và 2 cột trên điện thoại.</p>
-      </div>
-      <div class="product-grid" id="homeProducts"></div>
+      <div class="product-grid" id="catalogGrid"></div>
     </section>
   </div>
 </main>
