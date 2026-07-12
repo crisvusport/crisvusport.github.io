@@ -1,0 +1,25 @@
+CRIS VŨ SPORT — WEBSITE ALBUM
+
+CÁC FILE CHÍNH
+- index.html: Trang chủ
+- catalog.html: Trang danh mục
+- product.html: Trang chi tiết sản phẩm
+- assets/css/styles.css: Giao diện
+- assets/js/data.js: Dữ liệu sản phẩm
+- assets/js/site.js: Chức năng menu, tìm kiếm, gallery
+
+LIÊN HỆ ĐÃ CÀI
+- Facebook: https://www.facebook.com/cristiano.vu1602/
+- Zalo: 0333623175
+
+CÁCH ĐƯA LÊN GITHUB
+1. Giải nén file zip.
+2. Upload toàn bộ nội dung bên trong thư mục lên repository crisvusport.github.io.
+3. Giữ nguyên các ảnh Portugal đã có trong repository.
+4. Nếu GitHub hỏi trùng index.html, chọn ghi đè file mới.
+5. Chờ 1–3 phút rồi mở https://crisvusport.github.io
+
+LƯU Ý
+- Website này là album, không có giỏ hàng hoặc thanh toán.
+- Ba ảnh hero hiện là ảnh mẫu. Sau này thay bằng ảnh thương hiệu của shop.
+- Muốn thêm sản phẩm, chỉnh file assets/js/data.js.

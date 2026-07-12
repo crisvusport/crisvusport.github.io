@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Danh mục | CRIS VŨ SPORT</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="catalog">
+
+<div class="promo" id="promo">
+  ⚽ ÁO BÓNG ĐÁ REPLICA · ORDER DỰ KIẾN 10–15 NGÀY
+  <button id="promoClose" aria-label="Đóng">×</button>
+</div>
+<div class="topline">
+  <div class="container topline-inner">
+    <span>🇻🇳 VND</span>
+    <span>Album sản phẩm CRIS VŨ SPORT</span>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container header-main">
+    <button class="icon-btn hamburger" id="menuBtn" aria-label="Mở menu">☰</button>
+    <a class="brand" href="index.html"><strong>CRIS VŨ</strong><span>SPORT</span></a>
+
+    <nav class="desktop-nav">
+      <div class="nav-item">
+        <a class="nav-link" href="catalog.html?category=club">CLB</a>
+        <div class="mega" id="clubMega"></div>
+      </div>
+      <div class="nav-item">
+        <a class="nav-link" href="catalog.html?collection=worldcup">WORLD CUP 2026</a>
+        <div class="mega" id="worldcupMega"></div>
+      </div>
+      <div class="nav-item">
+        <a class="nav-link" href="catalog.html?category=nation">ĐỘI TUYỂN</a>
+        <div class="mega" id="nationMega"></div>
+      </div>
+      <div class="nav-item"><a class="nav-link" href="catalog.html?collection=retro">RETRO VINTAGE</a></div>
+      <div class="nav-item"><a class="nav-link" href="catalog.html?category=kids">TRẺ EM</a></div>
+      <div class="nav-item"><a class="nav-link" href="product.html?id=portugal-2000-home-retro#guide">HƯỚNG DẪN</a></div>
+    </nav>
+
+    <div class="header-actions">
+      <input id="globalSearch" class="header-search" placeholder="Tìm sản phẩm...">
+      <span>⌕</span>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="mobile-drawer" id="mobileDrawer">
+  <div class="drawer-head">
+    <strong>CRIS VŨ SPORT</strong>
+    <button class="drawer-close" id="drawerClose">×</button>
+  </div>
+  <div id="mobileMenuContent"></div>
+</aside>
+
+<main class="container">
+  <div class="breadcrumb">Trang chủ / Danh mục</div>
+  <div class="catalog-head"><h1 id="catalogTitle">SẢN PHẨM</h1></div>
+
+  <div class="catalog-layout">
+    <aside class="sidebar">
+      <details open>
+        <summary>GIÁ</summary>
+        <label><input type="checkbox"> Dưới 400.000đ</label>
+        <label><input type="checkbox"> 400.000–550.000đ</label>
+      </details>
+      <details>
+        <summary>PHIÊN BẢN</summary>
+        <label><input type="checkbox"> Fan</label>
+        <label><input type="checkbox"> Player</label>
+        <label><input type="checkbox"> Retro</label>
+      </details>
+    </aside>
+
+    <section>
+      <div class="catalog-sort">
+        <span id="catalogCount">0 sản phẩm</span>
+        <select>
+          <option>Mới nhất</option>
+          <option>Giá thấp đến cao</option>
+          <option>Giá cao đến thấp</option>
+        </select>
+      </div>
+      <div class="product-grid" id="catalogGrid"></div>
+    </section>
+  </div>
+</main>
+
+<a class="floating-zalo" href="https://zalo.me/0333623175" target="_blank" rel="noopener">Zalo</a>
+<footer class="footer">
+  <div class="container">
+    <strong>CRIS VŨ SPORT</strong>
+    <p>
+      Áo bóng đá replica · Ảnh thật từ xưởng · In tên, số và patch theo yêu cầu<br>
+      Website chỉ là album sản phẩm, không có chức năng thanh toán trực tuyến.
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
