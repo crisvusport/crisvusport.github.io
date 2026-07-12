@@ -324,3 +324,137 @@ const WORLDCUP = {
   ]
 };
 const CONTACTS = { facebook: "https://www.facebook.com/cristiano.vu1602/", zalo: "https://zalo.me/0333623175" };
+
+const CLUB_MENU = [
+  {
+    league: "PREMIER LEAGUE",
+    teams: [
+      { name: "EFL Championship", logo: "assets/clubs/efl-championship.png" },
+      { name: "Manchester City", logo: "assets/clubs/manchester-city.png" },
+      { name: "Chelsea", logo: "assets/clubs/chelsea.png" },
+      { name: "Manchester United", logo: "assets/clubs/manchester-united.png" },
+      { name: "Arsenal", logo: "assets/clubs/arsenal.png" },
+      { name: "Liverpool", logo: "assets/clubs/liverpool.png" },
+      { name: "Tottenham Hotspur", logo: "assets/clubs/tottenham-hotspur.png" },
+      { name: "Aston Villa", logo: "assets/clubs/aston-villa.png" },
+      { name: "Newcastle United", logo: "assets/clubs/newcastle-united.png" },
+      { name: "West Ham United", logo: "assets/clubs/west-ham-united.png" },
+      { name: "Crystal Palace", logo: "assets/clubs/crystal-palace.png" },
+      { name: "Wolverhampton", logo: "assets/clubs/wolverhampton.png" },
+      { name: "Brighton", logo: "assets/clubs/brighton.png" },
+      { name: "Nottingham Forest", logo: "assets/clubs/nottingham-forest.png" },
+      { name: "Everton", logo: "assets/clubs/everton.png" },
+      { name: "Leeds United", logo: "assets/clubs/leeds-united.png" },
+      { name: "Fulham", logo: "assets/clubs/fulham.png" },
+      { name: "Sunderland", logo: "assets/clubs/sunderland.png" },
+      { name: "Celtic", logo: "assets/clubs/celtic.png" },
+      { name: "Burnley", logo: "assets/clubs/burnley.png" }
+    ]
+  },
+  {
+    league: "SERIE A",
+    teams: [
+      { name: "Inter Milan", logo: "assets/clubs/inter-milan.png" },
+      { name: "AC Milan", logo: "assets/clubs/ac-milan.png" },
+      { name: "Juventus", logo: "assets/clubs/juventus.png" },
+      { name: "Napoli", logo: "assets/clubs/napoli.png" },
+      { name: "AS Roma", logo: "assets/clubs/as-roma.png" },
+      { name: "Fiorentina", logo: "assets/clubs/fiorentina.png" },
+      { name: "Atalanta", logo: "assets/clubs/atalanta.png" },
+      { name: "Lazio", logo: "assets/clubs/lazio.png" },
+      { name: "Bologna", logo: "assets/clubs/bologna.png" },
+      { name: "Parma", logo: "assets/clubs/parma.png" },
+      { name: "Torino", logo: "assets/clubs/torino.png" },
+      { name: "Palermo FC", logo: "assets/clubs/palermo-fc.png" },
+      { name: "Cagliari Calcio", logo: "assets/clubs/cagliari-calcio.png" },
+      { name: "Pisa SC", logo: "assets/clubs/pisa-sc.png" },
+      { name: "Brescia Calcio", logo: "assets/clubs/brescia-calcio.png" },
+      { name: "Lecce", logo: "assets/clubs/lecce.png" },
+      { name: "Monza", logo: "assets/clubs/monza.png" },
+      { name: "Genoa", logo: "assets/clubs/genoa.png" },
+      { name: "Udinese", logo: "assets/clubs/udinese.png" },
+      { name: "Cremonese", logo: "assets/clubs/cremonese.png" },
+      { name: "Sassuolo", logo: "assets/clubs/sassuolo.png" },
+      { name: "Como", logo: "assets/clubs/como.png" },
+      { name: "Hellas Verona", logo: "assets/clubs/hellas-verona.png" },
+      { name: "Bari", logo: "assets/clubs/bari.png" }
+    ]
+  },
+  {
+    league: "LIGA",
+    teams: [
+      { name: "LaLiga Hypermotion", logo: "assets/clubs/laliga-hypermotion.png" },
+      { name: "Real Madrid", logo: "assets/clubs/real-madrid.png" },
+      { name: "Barcelona", logo: "assets/clubs/barcelona.png" },
+      { name: "Atlético de Madrid", logo: "assets/clubs/atletico-de-madrid.png" },
+      { name: "Athletic Bilbao", logo: "assets/clubs/athletic-bilbao.png" },
+      { name: "Real Sociedad", logo: "assets/clubs/real-sociedad.png" },
+      { name: "Real Betis", logo: "assets/clubs/real-betis.png" },
+      { name: "Celta de Vigo", logo: "assets/clubs/celta-de-vigo.png" },
+      { name: "Girona", logo: "assets/clubs/girona.png" },
+      { name: "Villarreal", logo: "assets/clubs/villarreal.png" },
+      { name: "Valencia", logo: "assets/clubs/valencia.png" },
+      { name: "Osasuna", logo: "assets/clubs/osasuna.png" },
+      { name: "Sevilla", logo: "assets/clubs/sevilla.png" },
+      { name: "Rayo Vallecano", logo: "assets/clubs/rayo-vallecano.png" },
+      { name: "Deportivo Alavés", logo: "assets/clubs/deportivo-alaves.png" },
+      { name: "Espanyol", logo: "assets/clubs/espanyol.png" },
+      { name: "Getafe", logo: "assets/clubs/getafe.png" },
+      { name: "RCD Mallorca", logo: "assets/clubs/rcd-mallorca.png" },
+      { name: "Real Oviedo", logo: "assets/clubs/real-oviedo.png" },
+      { name: "Elche CF", logo: "assets/clubs/elche-cf.png" }
+    ]
+  },
+  {
+    league: "BUNDESLIGA",
+    teams: [
+      { name: "Bayern München", logo: "assets/clubs/bayern-munchen.png" },
+      { name: "Borussia Dortmund", logo: "assets/clubs/borussia-dortmund.png" },
+      { name: "Frankfurt", logo: "assets/clubs/frankfurt.png" },
+      { name: "RB Leipzig", logo: "assets/clubs/rb-leipzig.png" },
+      { name: "Bayer 04 Leverkusen", logo: "assets/clubs/bayer-04-leverkusen.png" },
+      { name: "Schalke 04", logo: "assets/clubs/schalke-04.png" },
+      { name: "Köln", logo: "assets/clubs/koln.png" },
+      { name: "Hamburger SV", logo: "assets/clubs/hamburger-sv.png" },
+      { name: "St. Pauli", logo: "assets/clubs/st-pauli.png" },
+      { name: "Greuther Furth", logo: "assets/clubs/greuther-furth.png" },
+      { name: "FC Kaiserslautern", logo: "assets/clubs/fc-kaiserslautern.png" },
+      { name: "Borussia Mönchengladbach", logo: "assets/clubs/borussia-monchengladbach.png" },
+      { name: "1.FC Heidenheim 1846", logo: "assets/clubs/1fc-heidenheim-1846.png" },
+      { name: "1. FC Union Berlin", logo: "assets/clubs/1-fc-union-berlin.png" },
+      { name: "Augsburg", logo: "assets/clubs/augsburg.png" },
+      { name: "VfL Wolfsburg", logo: "assets/clubs/vfl-wolfsburg.png" }
+    ]
+  },
+  {
+    league: "LIGUE 1",
+    teams: [
+      { name: "PSG", logo: "assets/clubs/psg.png" },
+      { name: "Monaco", logo: "assets/clubs/monaco.png" },
+      { name: "Olympique de Marseille", logo: "assets/clubs/olympique-de-marseille.png" },
+      { name: "Olympique Lyonnais", logo: "assets/clubs/olympique-lyonnais.png" },
+      { name: "Lille", logo: "assets/clubs/lille.png" },
+      { name: "AJ Auxerre", logo: "assets/clubs/aj-auxerre.png" },
+      { name: "RC Lens", logo: "assets/clubs/rc-lens.png" },
+      { name: "FC Nantes", logo: "assets/clubs/fc-nantes.png" },
+      { name: "Paris FC", logo: "assets/clubs/paris-fc.png" },
+      { name: "AS Saint-Etienne", logo: "assets/clubs/as-saint-etienne.png" },
+      { name: "Nice", logo: "assets/clubs/nice.png" },
+      { name: "Angers SCO", logo: "assets/clubs/angers-sco.png" },
+      { name: "Strasbourg", logo: "assets/clubs/strasbourg.png" },
+      { name: "Stade Rennais", logo: "assets/clubs/stade-rennais.png" }
+    ]
+  },
+  {
+    league: "PORTUGAL LIGA",
+    teams: [
+      { name: "FC Porto", logo: "assets/clubs/fc-porto.png" },
+      { name: "S.L. Benfica", logo: "assets/clubs/sl-benfica.png" },
+      { name: "Sporting CP", logo: "assets/clubs/sporting-cp.png" },
+      { name: "Vitória S.C.", logo: "assets/clubs/vitoria-sc.png" },
+      { name: "F.C. Alverca", logo: "assets/clubs/fc-alverca.png" },
+      { name: "S.C. Braga", logo: "assets/clubs/sc-braga.png" },
+      { name: "Famalicao", logo: "assets/clubs/famalicao.png" }
+    ]
+  }
+];
