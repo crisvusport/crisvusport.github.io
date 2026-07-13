@@ -80,24 +80,82 @@ function buildClubMegaMenu() {
   `;
 }
 
-function buildMobileMenu(){
-  const el = qs("#mobileMenuContent");
-  if(!el) return;
-  el.innerHTML = `
-    <details>
+function buildMobileMenu() {
+  const menu = qs("#mobileMenuContent");
+
+  if (!menu || typeof CLUB_MENU === "undefined") {
+    return;
+  }
+
+  menu.innerHTML = `
+    <details class="mobile-main-group">
       <summary>CLB</summary>
-      ${Object.values(CLUBS).flat().map(x=>`<a href="catalog.html?q=${encodeURIComponent(x)}">${x}</a>`).join("")}
+
+      <div class="mobile-league-menu">
+        ${CLUB_MENU.map((group, groupIndex) => `
+          <details class="mobile-league-group">
+            <summary>
+              <span>${group.league}</span>
+              <span>→</span>
+            </summary>
+
+            <div class="mobile-club-list">
+              ${group.teams.map(team => `
+                <a
+                  class="mobile-club-item"
+                  href="catalog.html?q=${encodeURIComponent(team.name)}"
+                >
+                  <img
+                    src="${team.logo}"
+                    alt="${team.name}"
+                    loading="lazy"
+                    onerror="this.style.display='none'"
+                  >
+
+                  <span>${team.name}</span>
+                </a>
+              `).join("")}
+            </div>
+          </details>
+        `).join("")}
+      </div>
     </details>
-    <details>
+
+    <details class="mobile-main-group">
       <summary>WORLD CUP 2026</summary>
-      ${Object.values(WORLDCUP).flat().map(x=>`<a href="catalog.html?q=${encodeURIComponent(x)}">${x}</a>`).join("")}
+
+      ${Object.values(WORLDCUP)
+        .flat()
+        .map(team => `
+          <a href="catalog.html?q=${encodeURIComponent(team)}">
+            ${team}
+          </a>
+        `)
+        .join("")}
     </details>
-    <details>
+
+    <details class="mobile-main-group">
       <summary>ĐỘI TUYỂN</summary>
-      ${Object.values(NATIONS).flat().map(x=>`<a href="catalog.html?q=${encodeURIComponent(x)}">${x}</a>`).join("")}
+
+      ${Object.values(NATIONS)
+        .flat()
+        .map(team => `
+          <a href="catalog.html?q=${encodeURIComponent(team)}">
+            ${team}
+          </a>
+        `)
+        .join("")}
     </details>
-    <details><summary>RETRO VINTAGE</summary><a href="catalog.html?collection=retro">Xem tất cả Retro</a></details>
-    <details><summary>TRẺ EM</summary><a href="catalog.html?category=kids">Xem bộ trẻ em</a></details>
+
+    <details class="mobile-main-group">
+      <summary>RETRO VINTAGE</summary>
+      <a href="catalog.html?collection=retro">Xem tất cả Retro</a>
+    </details>
+
+    <details class="mobile-main-group">
+      <summary>TRẺ EM</summary>
+      <a href="catalog.html?category=kids">Xem bộ trẻ em</a>
+    </details>
   `;
 }
 
