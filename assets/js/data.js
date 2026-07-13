@@ -393,7 +393,7 @@ const CLUB_MENU = [
       { name: "Celta de Vigo", logo: "assets/clubs/celta-de-vigo.png" },
       { name: "Girona", logo: "assets/clubs/girona.webp" },
       { name: "Villarreal", logo: "assets/clubs/villarreal.png" },
-      { name: "Valencia", logo: "assets/clubs/valencia.png" },
+      { name: "Valencia", logo: "assets/clubs/valencia.jpg" },
       { name: "Osasuna", logo: "assets/clubs/osasuna.png" },
       { name: "Sevilla", logo: "assets/clubs/sevilla.png" },
       { name: "Rayo Vallecano", logo: "assets/clubs/rayo-vallecano.png" },
