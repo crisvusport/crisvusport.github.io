@@ -151,3 +151,78 @@ button{cursor:pointer}
   .product-price{font-size:14px}
   .spec-grid{grid-template-columns:1fr}
 }
+
+/* =================================
+   CLUB MEGA MENU - DESKTOP
+================================= */
+
+.club-mega {
+  padding: 24px 0 30px;
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+  background: #f7f4f5;
+}
+
+.club-mega-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(145px, 1fr));
+  gap: 28px 30px;
+  align-items: start;
+}
+
+.club-column {
+  min-width: 0;
+}
+
+.club-column h4 {
+  margin: 0 0 14px;
+  font-size: 13px;
+  font-weight: 900;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.club-team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.club-team {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+  min-height: 34px;
+  padding: 2px 0 !important;
+  color: #111111;
+  font-size: 12px !important;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.club-team img {
+  width: 29px;
+  height: 29px;
+  object-fit: contain;
+  flex: 0 0 29px;
+  transition: transform 0.2s ease;
+}
+
+.club-team span {
+  display: block;
+}
+
+.club-team:hover span {
+  text-decoration: underline;
+}
+
+.club-team:hover img {
+  transform: scale(1.08);
+}
+
+/* Màn hình laptop nhỏ */
+@media (min-width: 901px) and (max-width: 1180px) {
+  .club-mega-grid {
+    grid-template-columns: repeat(4, minmax(145px, 1fr));
+  }
+}
