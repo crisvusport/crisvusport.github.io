@@ -44,6 +44,42 @@ function buildMega(id, data){
   }</div>`;
 }
 
+function buildClubMegaMenu() {
+  const menu = qs("#clubMega");
+
+  if (!menu || typeof CLUB_MENU === "undefined") {
+    return;
+  }
+
+  menu.innerHTML = `
+    <div class="container mega-grid club-mega-grid">
+      ${CLUB_MENU.map(group => `
+        <div class="club-column">
+          <h4>${group.league}</h4>
+
+          <div class="club-team-list">
+            ${group.teams.map(team => `
+              <a
+                class="club-team"
+                href="catalog.html?q=${encodeURIComponent(team.name)}"
+              >
+                <img
+                  src="${team.logo}"
+                  alt="${team.name}"
+                  loading="lazy"
+                  onerror="this.remove()"
+                >
+
+                <span>${team.name}</span>
+              </a>
+            `).join("")}
+          </div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
 function buildMobileMenu(){
   const el = qs("#mobileMenuContent");
   if(!el) return;
@@ -66,7 +102,7 @@ function buildMobileMenu(){
 }
 
 function initCommon(){
-  buildMega("clubMega", CLUBS);
+  buildClubMegaMenu();
   buildMega("nationMega", NATIONS);
   buildMega("worldcupMega", WORLDCUP);
   buildMobileMenu();
