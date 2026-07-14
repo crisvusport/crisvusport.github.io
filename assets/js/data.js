@@ -1,7 +1,7 @@
 const PRODUCTS = [
   {
-    "id": "portugal-2000-home-retro",
-    "title": "ÁO PORTUGAL 2000 HOME RETRO",
+    "id": "ao-portugal-2000-home-fan-retro",
+    "title": "ÁO PORTUGAL 2000 HOME FAN RETRO",
     "team": "Portugal",
     "category": "ĐỘI TUYỂN",
     "categoryKey": "nation",
@@ -13,15 +13,15 @@ const PRODUCTS = [
     "size": "S–2XL",
     "price": "479.000đ",
     "badge": "RETRO",
-    "images": [
-      "Portugal 2000 Home Retro (front).jpg",
-      "Portugal 2000 Home Retro (back).jpg",
-      "Portugal 2000 Home Retro (detail 1).jpg",
-      "Portugal 2000 Home Retro (detail 2).jpg",
-      "Portugal 2000 Home Retro (detail 3).jpg",
-      "Portugal 2000 Home Retro (detail 4).jpg",
-      "Portugal 2000 Home Retro (detail 5).jpg"
-    ],
+    images: [
+    "assets/products/ao-portugal-2000-home-fan-retro/front.jpg",
+    "assets/products/ao-portugal-2000-home-fan-retro/back.jpg",
+    "assets/products/ao-portugal-2000-home-fan-retro/detail-1.jpg",
+    "assets/products/ao-portugal-2000-home-fan-retro/detail-2.jpg",
+    "assets/products/ao-portugal-2000-home-fan-retro/detail-3.jpg",
+    "assets/products/ao-portugal-2000-home-fan-retro/detail-4.jpg",
+    "assets/products/ao-portugal-2000-home-fan-retro/detail-5.jpg"
+   ],,
     "search": "portugal bồ đào nha 2000 home retro fan"
   },
   {
