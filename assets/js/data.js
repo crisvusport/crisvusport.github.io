@@ -9,7 +9,7 @@ const PRODUCTS = [
     "collectionKey": "retro",
     "year": "2000",
     "style": "HOME",
-    "version": "RETRO FAN",
+    "version": "FAN",
     "size": "S–2XL",
     "price": "479.000đ",
     "badge": "RETRO",
@@ -21,8 +21,9 @@ const PRODUCTS = [
     "assets/products/ao-portugal-2000-home-fan-retro/detail-3.jpg",
     "assets/products/ao-portugal-2000-home-fan-retro/detail-4.jpg",
     "assets/products/ao-portugal-2000-home-fan-retro/detail-5.jpg"
-   ],,
-    "search": "portugal bồ đào nha 2000 home retro fan"
+   ],
+    
+    "search": "áo portugal bồ đào nha 2000 home sân nhà fan retro vintage áo đấu bóng đá đội tuyển portugal"
   },
   {
     "id": "portugal-2026-home-player",
