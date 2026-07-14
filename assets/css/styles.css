@@ -327,3 +327,45 @@ button{cursor:pointer}
     border-radius: 8px;
   }
 }
+
+/* NÚT FACEBOOK NỔI */
+.floating-facebook {
+  position: fixed;
+  right: 22px;
+  bottom: 96px;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1877f2;
+  border-radius: 50%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  z-index: 999;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.floating-facebook svg {
+  width: 31px;
+  height: 31px;
+  fill: #ffffff;
+}
+
+.floating-facebook:hover {
+  transform: scale(1.08);
+}
+
+@media (max-width: 900px) {
+  .floating-facebook {
+    right: 18px;
+    bottom: 94px;
+    width: 54px;
+    height: 54px;
+  }
+
+  .floating-facebook svg {
+    width: 29px;
+    height: 29px;
+  }
+}
